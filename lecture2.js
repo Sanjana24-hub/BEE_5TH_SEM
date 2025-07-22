@@ -1,4 +1,4 @@
-/*
+
 const fs = require("fs");
 console.log("start");
 setImmediate(()=>{
@@ -19,8 +19,8 @@ fun();
     console.log("end")
 
     // set immediate- poll phase ke baad chlta hai 
-*/
-/*
+
+
 console.log("start")
 setTimeout(()=>{
     console.log("timer1")
@@ -32,4 +32,3 @@ process.nextTick(()=>{
     console.log("next tick 2")})
 console.log("end")
 
-*/
