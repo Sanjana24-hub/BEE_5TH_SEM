@@ -34,6 +34,7 @@ console.dir(el8);
 let content = el8.innerText
 console.log(content);
 
-el8.innerText="set using JavaScript"
+el8.innerText="set using JavaScript" //this will upadte on html page 
+// not update on console beacuse humne console per to update ki hi nahi 
 //innerText use krne se sirf text text ata hai
 //innerHTML use krne se pura HTML ata hai 
